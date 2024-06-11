@@ -1,0 +1,36 @@
+.login {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-weight: bold;
+  width: 300px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+}
+
+.login_kakao {
+  background-color: yellow;
+  text-align: center;
+  font-weight: bold;
+  width: 300px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+}
+
+.sale {
+  color: #0078ff;
+  font-weight: bold;
+}
+
+.join {
+  color: #0078ff;
+  background-color: white;
+  border: 1px solid #0078ff;
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+}

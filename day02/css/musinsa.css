@@ -1,0 +1,44 @@
+.login_naver {
+  color: white;
+  background-color: #03c75a;
+  text-align: center;
+  border: 0.5px solid #35c877;
+  width: 300px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 3px;
+}
+
+.naver {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.naver_login {
+  font-size: 12px;
+}
+
+.login_kakao {
+  color: #000000;
+  background-color: #fee500;
+  text-align: center;
+  font-weight: bold;
+  width: 300px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.apple_login {
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  border: 0.5px solid #bfbfbf;
+  width: 300px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 3px;
+  font-size: 15px;
+}

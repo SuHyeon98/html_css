@@ -1,0 +1,17 @@
+/* style 담당일진 */
+h1 {
+    color: #7A4D38; 
+    font-family : monospace; 
+    border: 1px solid #7A4D38;
+}
+
+button {
+    color: #e48aa7;
+}
+
+a {
+    color: #6AA84F; 
+    font-size: 20px;
+    font-family: 'Platino Linotype'; 
+    text-decoration: none;
+}
