@@ -1,0 +1,39 @@
+.box {
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  /* 주축으로 위치 선정 */
+  justify-content: center;
+  /* 교차축으로 위치 선정 */
+  align-items: center;
+  /* 자식들 사이에 gap 주기 */
+  gap: 10px;
+}
+
+.box > div {
+  /* flex: 1; */
+  width: 100px;
+  height: 100px;
+}
+
+.pallate1 {
+  background-color: #fc5c65;
+}
+
+.pallate2 {
+  background-color: #fd9644;
+}
+
+.pallate3 {
+  background-color: #fed330;
+}
+
+.pallate4 {
+  background-color: #26de81;
+}
+
+.pallate5 {
+  background-color: #2bcbba;
+}

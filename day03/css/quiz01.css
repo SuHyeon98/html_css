@@ -1,0 +1,20 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.box > div {
+  color: white;
+  background-color: black;
+  flex: 1;
+  width: 350px;
+  font-size: 28px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 40px;
+  border-radius: 5px;
+}
