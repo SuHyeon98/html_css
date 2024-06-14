@@ -1,95 +1,93 @@
-.container {
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Pretendard-Regular';
+}
+
+.banner {
   margin: 0 auto;
   width: 1000px;
-  height: 1500px;
-  text-align: center;
-}
-
-.p1 {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #48dbfb;
-}
-
-h2 {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #192a56;
-}
-
-.p2 {
-  color: gray;
-  font-family: "PT Sans", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.small_con {
-  width: 400px;
-  height: 500px;
-  margin: 0 auto;
-  display: flex;
-}
-
-.box {
-  flex: 1;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
-.box > div {
+.logo {
+  font-size: 16px;
+  color: #31abf1;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main > span {
+  font-size: 40px;
+  color: #252b42;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub > span {
+  font-size: 14px;
+  color: #7d7d7d;
+}
+
+.downloads {
+  display: flex;
+  gap: 10px;
+}
+
+.appleButton {
+  border: 1px solid #7d7d7d;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 220px;
+}
+
+.googleButton {
+  border: 1px solid #252b42;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  background-color: #252b42;
+  color: white;
+  width: 220px;
+}
+
+.icon {
   flex: 1;
 }
 
-.app_sto {
-  background-color: white;
-  border: 1px solid gray;
-  width: 150px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  border-radius: 8px;
-  margin: 0 auto;
+.icon > i {
+  font-size: 35px;
 }
 
-.google_sto {
-  background-color: #192a56;
-  border: 1px solid black;
-  width: 150px;
-  padding: 12px;
-  border-radius: 8px;
-  margin: 0 auto;
-}
-
-.paper1 {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #192a56;
-  font-size: 13px;
-}
-
-.paper2 {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #192a56;
-  font-size: 18px;
-}
-
-.paper3 {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: white;
-  font-size: 13px;
-}
-
-.paper4 {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  color: white;
-  font-size: 18px;
+.info {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+  padding-left: 8px;
+  font-size: 15px;
 }
