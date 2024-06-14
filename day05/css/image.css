@@ -1,0 +1,12 @@
+.imagebox {
+  width: 100px;
+  height: 100px;
+}
+
+.imagebox > img {
+  width: 100%;
+  height: 100%;
+  /* 사진을 최적화 시키기 */
+  object-fit: cover;
+  border-radius: 50%;
+}
