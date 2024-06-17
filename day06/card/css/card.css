@@ -1,0 +1,41 @@
+.container {
+  width: fit-content;
+  display: flex;
+  gap: 5vw;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 100vh;
+  gap: 20px;
+  background-image: url("/day06/card/img/pool-5055009_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 3vw;
+  text-align: 10px;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  color: white;
+}
+
+.list {
+  text-decoration: underline;
+  text-underline-offset: 2vw;
+  font-size: 3vw;
+  margin: 3vw;
+}
+
+.photo > span {
+  margin-left: 3vw;
+  font-size: 5vw;
+  font-weight: bold;
+  /* padding-left: 30px; */
+}
+
+.buttom {
+  margin-top: 2vw;
+  margin-left: 3vw;
+  font-size: 2.5vw;
+}
