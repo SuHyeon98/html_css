@@ -2,32 +2,28 @@
   margin: 0 auto;
   width: fit-content;
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 20px;
 }
 
 .imagebox {
-  width: 100px;
-  height: 100px;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 20px;
+  font-weight: bold;
 }
 
-.imagebox > img {
+.profileImage {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #c1256a;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.profileImage > img {
   width: 100%;
   height: 100%;
-  /* 사진을 최적화 시키기 */
   object-fit: cover;
-  border: 3px solid blueviolet;
   border-radius: 50%;
-  padding: 3px;
-}
-
-.imagebox > span {
-  margin: 0 auto;
-  font-weight: bold;
-  text-align: center;
-  padding: 25px;
 }
