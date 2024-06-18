@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > div {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: #fc5c65;
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+.orange {
+  background-color: #fd9644;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.yellow {
+  background-color: #fed330;
+  position: fixed;
+}
+
+.green {
+  background-color: #26de81;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
