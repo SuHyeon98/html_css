@@ -1,0 +1,14 @@
+.recruit {
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+  background-color: #ff6573;
+  color: white;
+  border-radius: 16px;
+  padding: 20px 16px;
+}
+
+.recruit:hover {
+  background-color: #cf434f;
+  cursor: pointer;
+}

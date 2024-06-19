@@ -1,0 +1,25 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+  position: relative;
+  margin: 0 auto;
+  background-size: cover;
+  width: 100vw;
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron {
+  position: absolute;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  color: white;
+}

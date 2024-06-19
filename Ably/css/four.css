@@ -1,0 +1,25 @@
+.four {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.missionTitle {
+  width: 100%;
+  max-width: 960px;
+  font-size: 40px;
+  margin: 0 auto;
+  color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+}
+
+.small {
+  font-size: 20px;
+  color: #bbbbbb;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
