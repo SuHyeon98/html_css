@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 230px;
+  margin-top: 400px;
 }
 
 .identity {
@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 32px;
+  font-size: 40px;
   color: #858585;
   gap: 20px;
 }
