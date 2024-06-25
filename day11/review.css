@@ -12,8 +12,8 @@ main {
 
 .blogBox {
   width: 100%;
-  max-width: 768px;
-  height: 568px;
+  max-width: 290px;
+  height: 768px;
   font-family: "Pretendard-Regular";
   border-radius: 20px;
   background: rgb(0, 0, 0);
@@ -72,8 +72,9 @@ main {
 }
 
 .icon {
-  margin-top: 20px;
-  gap: 50px;
+  margin-top: 50px;
+  gap: 60px;
   text-align: center;
   font-size: 30px;
+  color: white;
 }
